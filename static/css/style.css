@@ -142,3 +142,9 @@ hr.line-pendek{
 .slick-dots li.slick-active button:before {
   background-color: #000;
 }
+
+.size-none{
+  width: 550px;
+  height: 550px;
+
+}
