@@ -7,52 +7,52 @@
 
 /* NAVBAR START */
 .toggle {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: block;
-    height: auto;
-    margin: auto;
-    cursor: pointer;
-  }
-  .toggle-input {
-    display: none;
-    margin: 0;
-  }
-  .toggle-input:checked + .toggle-controller.default-success {
-    border: 0.125rem solid rgba(108, 211, 61, 0.75);
-    background: rgba(108, 211, 61, 0.375);
-  }
-  .toggle-input:checked + .toggle-controller.default-success:after {
-    left: 1.5625rem;
-  }
-  .toggle-controller.default-success {
-    position: relative;
-    display: inline-block;
-    height: 1.5625rem;
-    width: 3.125rem;
-    border: 0.125rem solid rgba(46, 45, 44, 0.05);
-    background: rgba(46, 45, 44, 0.025);
-    -webkit-transition: all 0.25s ease;
-    -moz-transition: all 0.25s ease;
-    -o-transition: all 0.25s ease;
-    transition: all 0.25s ease;
-  }
-  .toggle-controller.default-success:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: '';
-    display: block;
-    height: 1.5625rem;
-    width: 1.5625rem;
-    background: white;
-    -webkit-transition: all 0.25s ease;
-    -moz-transition: all 0.25s ease;
-    -o-transition: all 0.25s ease;
-    transition: all 0.25s ease;
-  }
-  /* NAVBAR END */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  height: auto;
+  margin: auto;
+  cursor: pointer;
+}
+.toggle-input {
+  display: none;
+  margin: 0;
+}
+.toggle-input:checked + .toggle-controller.default-success {
+  border: 0.125rem solid rgba(108, 211, 61, 0.75);
+  background: rgba(108, 211, 61, 0.375);
+}
+.toggle-input:checked + .toggle-controller.default-success:after {
+  left: 1.5625rem;
+}
+.toggle-controller.default-success {
+  position: relative;
+  display: inline-block;
+  height: 1.5625rem;
+  width: 3.125rem;
+  border: 0.125rem solid rgba(46, 45, 44, 0.05);
+  background: rgba(46, 45, 44, 0.025);
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.toggle-controller.default-success:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  display: block;
+  height: 1.5625rem;
+  width: 1.5625rem;
+  background: white;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+/* NAVBAR END */
 
 /* ABOUT START */
 #about .row{
@@ -77,14 +77,6 @@ hr.line-pendek{
 #fitur .card-body img{
   width: 60px;
 }
-/* FITUR END */
-
-
-/* DESKTOP VERSION */
-@media (min-width: 992px) {
-    
-}
-
 .slider {
   width: 100%;
   margin: 100px auto;
@@ -142,3 +134,12 @@ hr.line-pendek{
 .slick-dots li.slick-active button:before {
   background-color: #000;
 }
+/* FITUR END */
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    
+}
+
+
