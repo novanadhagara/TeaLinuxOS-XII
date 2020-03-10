@@ -1,0 +1,144 @@
+/* HEADER START */
+.jumbotron{
+    height: 100vh;
+    margin-bottom: 0;
+}
+/* HEADER END */
+
+/* NAVBAR START */
+.toggle {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    height: auto;
+    margin: auto;
+    cursor: pointer;
+  }
+  .toggle-input {
+    display: none;
+    margin: 0;
+  }
+  .toggle-input:checked + .toggle-controller.default-success {
+    border: 0.125rem solid rgba(108, 211, 61, 0.75);
+    background: rgba(108, 211, 61, 0.375);
+  }
+  .toggle-input:checked + .toggle-controller.default-success:after {
+    left: 1.5625rem;
+  }
+  .toggle-controller.default-success {
+    position: relative;
+    display: inline-block;
+    height: 1.5625rem;
+    width: 3.125rem;
+    border: 0.125rem solid rgba(46, 45, 44, 0.05);
+    background: rgba(46, 45, 44, 0.025);
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+  }
+  .toggle-controller.default-success:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    display: block;
+    height: 1.5625rem;
+    width: 1.5625rem;
+    background: white;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+  }
+  /* NAVBAR END */
+
+/* ABOUT START */
+#about .row{
+    padding: 70px 0;
+}
+hr.line-panjang{
+    background-color: #000;
+    width: 300px;
+    text-align: left;
+}
+hr.line-pendek{
+    background-color: #000;
+    width: 200px;
+}
+/* ABOUT END */
+
+/* FITUR START */
+#fitur{
+    height: 100vh;
+    padding: 70px 0;
+}
+#fitur .card-body img{
+  width: 60px;
+}
+/* FITUR END */
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    
+}
+
+.slider {
+  width: 100%;
+  margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 10px 50px;
+}
+
+.slick-slide img {
+  width: 100%;
+  transform: scale(0.9);
+}
+
+.slick-next{
+  right: 112px !important;
+  top: 110% !important;
+}
+.slick-next.slick-arrow::before {
+  /* font-family: "Font Awesome 5 Free"; */
+  /* content: '\f144'; */
+  color: #000;
+  font-size: 32px;
+}
+.slick-dots li button:before{
+  margin-top: 36px !important;
+}
+.slick-dotted .slick-current .card {
+  transform: scale(1.1);
+}
+
+.sliding-items .slick-track img {
+  width: 100%;
+  height: auto;
+}
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 1rem 0;
+  list-style-type: none;
+}
+.slick-dots li {
+  margin-left: 28px !important;
+}
+.slick-dots li button:before {
+  display: block;
+  width: 42px !important;
+  height: 4px !important;
+  padding: 0;
+  border: none;
+  background-color: #eee;
+  text-indent: -9999px;
+}
+.slick-dots li.slick-active button:before {
+  background-color: #000;
+}

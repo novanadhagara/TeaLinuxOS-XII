@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{ partial "head" . }}
+<body>
+    {{ partial "nav" . }}
+    {{ partial "header" . }}
+    
+    {{ block "main" . }}{{ end }}
+
+    {{ partial "footer" . }}
+    {{ partial "js-init" . }}
+</body>
+</html>
