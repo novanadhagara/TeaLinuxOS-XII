@@ -134,6 +134,14 @@ hr.line-pendek{
 .slick-dots li.slick-active button:before {
   background-color: #000;
 }
+<<<<<<< HEAD
+
+.size-none{
+  width: 550px;
+  height: 550px;
+
+}
+=======
 /* FITUR END */
 
 
@@ -143,3 +151,4 @@ hr.line-pendek{
 }
 
 
+>>>>>>> c78cd77adaad5c2a695b56b5fa060d59e2efebcc
